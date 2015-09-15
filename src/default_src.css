@@ -3489,3 +3489,12 @@ a.author {
 .submit-page .side, .submit-page .content h1, #suggested-reddits {
     display: block;
 }
+
+/* Hide Grippy of LeftBar */
+body.with-listing-chooser.listing-chooser-collapsed .listing-chooser .grippy {
+    display: block;
+}
+
+body.with-listing-chooser .listing-chooser .grippy {
+    display: none;
+}
