@@ -3484,3 +3484,8 @@ a.author {
     margin-top: 410px;
 }
 /* END */
+
+/* Show suggested-reddit in create-subreddit page */
+.submit-page .side, .submit-page .content h1, #suggested-reddits {
+    display: block;
+}
